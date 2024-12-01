@@ -1,6 +1,35 @@
 # Linux-Process-and-Service-Management
 This guide provides essential Linux commands to manage processes, monitor system performance, and work with services.
 
+## Table of Contents
+
+1. [Process Management](#process-management)
+   - [View Processes](#view-processes)
+     - [ps](#ps)
+     - [ps aux](#ps-aux)
+     - [ps lax](#ps-lax)
+   - [Delay Execution](#delay-execution)
+     - [sleep](#sleep-seconds)
+   - [Run in Background](#run-in-background)
+   - [Control Foreground and Background Jobs](#control-foreground-and-background-jobs)
+   - [Manipulate Background Jobs](#manipulate-background-jobs)
+
+2. [System Monitoring](#system-monitoring)
+   - [System Uptime](#system-uptime)
+   - [Real-Time Task Monitoring](#real-time-task-monitoring)
+
+3. [Managing Services](#managing-services)
+   - [Systemctl Commands](#systemctl-commands)
+     - [Check Service Status](#systemctl-status-service)
+     - [Start/Stop Services](#systemctl-stopstart-service)
+     - [Enable/Disable Services on Boot](#systemctl-enabledisable-service)
+     - [Restart and Reload Services](#systemctl-restart-service)
+     - [Check Active Services](#systemctl-is-active-service)
+     - [List Dependencies](#systemctl-list-dependencies-service)
+     - [Check Failed Services](#systemctl---failed)
+     - [Mask/Unmask Services](#systemctl-maskunmask-service)
+
+---
 # Process Management
 ## View Processes
 ### ps
